@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd"
+    >
+    <!-- Text view for BMI Text -->
+    <TextView
+        android:id="@+id/tvBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorBlack"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <!-- Textview for WEIGHT(KG) text -->
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tvWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WEIGHT (KG)"
+            android:textColor="@color/colorBlack"
+            />
+
+        <!-- Edit text for entering weight with hint in kgs -->
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:hint="IN KGs"
+            android:layout_marginLeft="30dp"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:id="@+id/tvHeight"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:text="HEIGHT (CM)"
+           android:textColor="@color/colorBlack"
+           />
+
+       <!-- Edit text for entering height with hint in cm -->
+       <EditText
+           android:id="@+id/etHeight"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:hint="IN CMs"
+
+           android:inputType="numberDecimal" >
+       </EditText>
+   </LinearLayout>
+    <!-- Text view for HEIGHT(CM)text -->
+
+
+    <!-- Button for calculating the formula, when pressed, with calculate written over it -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/ib1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+
+            android:longClickable="true"
+
+            android:text="Calculate"
+            android:visibility="visible" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnClear"
+            />
+    </LinearLayout>
+
+    <!-- Text view for showing result -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/calculator"/>
+
+
+</LinearLayout>

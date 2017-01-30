@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:textSize="20dp"
+            android:text="Tuna"
+            android:textColor="@color/colorBlack"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tunafood"
+            android:scaleType="center"
+            android:id="@+id/tuna"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="--> Tuna is another low-calorie, high protein food.\n-->Tuna is another low-calorie, high protein food.\n-->Tuna is popular among bodybuilders and fitness models who are on a cut, because it’s a great way to keep protein high, with total calories and fat low.
+            \n-->If you’re trying to emphasize protein intake, then make sure to choose tuna canned in water, but not oil"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="500dp"
+    android:layout_height="match_parent"
+    android:id="@+id/firstday"
+    android:background="@drawable/backgnd">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dayone"/>
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Day 1 Diet Plan Chart:\n -------------------------\n
+        --> Breakfast at 8:30 AM : 1 glass of water and1 medium sized apple\n
+        -->Mid-Morning Snack at 10:30 AM :1 bowl of cantaloupes ,1 glass of water.\n
+        -->Lunch at 12:00 Noon: In lunch,2 slices of watermelon,2 glasses of water.\n
+         -->Afternoon Snack at 4.00 PM:Take only 1 orange and a glass of water.\n
+         -->Evening Snack at 6.30 PM:Take 1 pear and a glass of water.\n
+         -->Dinner at 8.00 PM:Take 1/2 grapefruit, 1 guava, and 2 glasses of water
+
+       "
+        />
+
+
+
+
+  </LinearLayout>
+
+
+</ScrollView>

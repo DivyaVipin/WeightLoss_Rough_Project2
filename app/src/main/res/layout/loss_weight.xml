@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="match_parent">
+    <fragment
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:id="@+id/main_fragment"
+        android:name="assignment.android.acadgild.nav.LossWeightFragment"
+        />
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/fragmentcontainer"
+        ></RelativeLayout>
+</RelativeLayout>

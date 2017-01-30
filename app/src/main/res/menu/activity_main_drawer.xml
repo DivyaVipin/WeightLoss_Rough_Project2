@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calories"
+            android:icon="@mipmap/email"
+            android:title="Calories in Food"
+            />
+        <item
+            android:id="@+id/nav_weightlossfoods"
+            android:icon="@mipmap/email"
+            android:title="Weight Loss Foods" />
+        <item
+            android:id="@+id/nav_magic_Drink"
+            android:icon="@mipmap/email"
+            android:title="Magic Weight Loss Drink" />
+        <item
+            android:id="@+id/nav_bmicalculator"
+            android:icon="@drawable/bmi_icon"
+            android:title="BMI Calculator" />
+        <item
+            android:id="@+id/nav_losskg"
+            android:icon="@mipmap/email"
+            android:title="GM Diet Plan" />
+        <item
+            android:id="@+id/nav_calorie_calculator"
+            android:icon="@mipmap/email"
+            android:title="Calorie Calculator" />
+        <item
+            android:id="@+id/nav_weight_tips"
+            android:icon="@mipmap/email"
+            android:title="Weight Loss Tips" />
+        <item
+            android:id="@+id/nav_calorie_tracker"
+            android:icon="@mipmap/email"
+            android:title="Calorie Tracker" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@mipmap/email"
+            android:title="Calendar" />
+    </group>
+
+
+
+</menu>

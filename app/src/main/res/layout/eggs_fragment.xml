@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:textSize="20dp"
+            android:text="Eggs"
+            android:textColor="@color/colorBlack"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/egg_cal"
+            android:scaleType="center"
+            android:id="@+id/eggs"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="--> They’re high in protein, healthy fats, and can make you feel full with a very low amount of calories"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+
+            android:text="-->Eggs are also incredibly nutrient dense and can help you get all the nutrients you need on a calorie restricted diet. "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="--> Almost all the nutrients are found in the yolks"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->Another 8 week study found that eggs for breakfast increased weight loss on a calorie restricted diet compared to bagels  "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->One study of 30 overweight women showed that eating eggs for breakfast, instead of bagels, increased satiety and made them eat less for the next 36 hours ."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text=" "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

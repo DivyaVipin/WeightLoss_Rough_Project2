@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the activity:"
+        android:id="@+id/txtViewActivity"/>
+    <Spinner
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnActivity"
+        ></Spinner>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories burned:"
+            android:id="@+id/txtViewCaloriesBurned"/>
+        <EditText
+            android:layout_marginTop="40dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextCalorie"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewDate"
+            android:text="Enter Date"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"/>
+        <DatePicker
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/datePickerDate"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:keepScreenOn="false"
+            android:datePickerMode="spinner"></DatePicker>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/btnCSave"
+            android:textColor="@color/colorBlack"
+            />
+    </LinearLayout>
+
+</LinearLayout>

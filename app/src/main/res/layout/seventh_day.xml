@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/seventhday"
+    android:background="@drawable/backgnd">
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dayseven"
+        android:id="@+id/imgSeven"
+        />
+    <TextView
+        android:textSize="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:text="
+Sample Diet Chart\n-----------------------------\n
+--> Breakfast: 1 bowl of  watermelon with a glass of water.\n
+--> Brunch: 1 cup of carrot and berries with 1 glass of water.\n
+--> Lunch: 1 bowl of lightly sautéed vegetables, 1 bowl of
+     cooked brown rice with 2 glasses of water.\n
+-->Afternoon Snack: 1 pear and a glass of water.\n
+--> Evening Snack: 1 Guava and a glass of water.\n
+--> Dinner: Take a bowl of mixed vegetable soup and 2 glasses of water.\n"/>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="assignment.android.acadgild">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bmi_icon"
+        android:label="Weight Loss Magic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <activity
+            android:name=".nav.MainActivity"
+            android:label="WeightLoss Magic"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".nav.BMICalculator"
+            android:label="BMI Calculator" />
+        <activity
+            android:name=".nav.MagicDrink"
+            android:label="Magic WeightLoss Drink" />
+        <activity
+            android:name=".nav.FoodCalories"
+            android:label="Food Calories" />
+        <activity
+        android:name=".nav.WeightLossFoods"
+        android:label="Weight Loss Foods" />
+        <activity
+            android:name=".nav.LossWeight"
+            android:label="GM Diet Plan" />
+        <activity
+            android:name=".nav.GMDiet"
+            android:label="GM Diet" />
+        <activity
+            android:name=".nav.CalorieCalculator"
+            android:label="CalorieCalcultor" />
+        <activity
+            android:name=".nav.LossWeightFragment"
+            android:label="GMDiet" />
+        <activity
+            android:name=".losskgs.FirstDay"
+            android:label="First Day GM Diet" />
+        <activity
+            android:name=".losskgs.SecondDay"
+            android:label="Second Day GM Diet" />
+        <activity
+            android:name=".losskgs.ThirdDay"
+            android:label="Third Day GM Diet" />
+        <activity
+            android:name=".losskgs.FourthDay"
+            android:label="Fourth Day GM Diet" />
+        <activity
+            android:name=".losskgs.FifthDay"
+            android:label="Fifth Day GM Diet" />
+        <activity
+            android:name=".losskgs.SixthDay"
+            android:label="Sixth Day GM Diet" />
+        <activity
+            android:name=".losskgs.SeventhDay"
+            android:label="Seventh Day GM Diet" />
+        <activity
+            android:name=".calorietracker.CalorieTracker"
+            android:label="Calorie Tracker" />
+        <activity
+            android:name=".weighttips.WeightLossTips"
+            android:label="WeightLossTips" />
+        <activity
+            android:name=".nav.Calender"
+            android:label="Calender" />
+
+    </application>
+
+</manifest>

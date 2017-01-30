@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sixthday"
+    android:background="@drawable/backgnd"
+    >
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/daysix"
+        android:id="@+id/imgSixthDay"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+android:layout_marginTop="3dp"
+        android:text="
+        Sample Diet Chart\n--------------------------\n
+       --> Breakfast at 8.30 am: 1 cup of  boiled vegetables,2 glasses of water.\n
+       -->Brunch at 10.30 am:  1/2 bowl of boiled red kidney beans or rajma with a
+                sliced tomato and 2 glasses of water.\n
+       -->Lunch at 12 noon:1 bowl of mixed vegetable soup and 1 cup of cooked
+                 brown rice with 2 glasses of water.\n
+       -->Afternoon Snack at 4.00: 1 apple or pear and a glass of water.\n
+       -->Evening Snack at 6.30 pm: 1 bowl of sprouts with a glass of water.\n
+       -->Dinner at 8.00 pm: A bowl of boiled mixed vegetables and a glass of water.
+"/>
+
+</LinearLayout>

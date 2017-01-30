@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:textSize="20dp"
+            android:text="Potato"
+            android:textColor="@color/colorBlack"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/potato"
+            android:scaleType="center"
+            android:id="@+id/potato"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="--> They have several properties that make them a perfect food, both for weight loss and optimal health.."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+
+            android:text="-->They contain an incredibly diverse range of nutrients, a little bit of almost everything we need"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->There have even been accounts of people living on nothing but potatoes alone for extended periods of time."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->They are particularly high in potassium, a nutrient that most people don’t get enough
+            of and plays an important role in blood pressure control \n -->On a scale called the Satiety Index, that measures how fulfilling different foods are, white, boiled potatoes scored the highest of all the foods tested \n -->If you boil the potatoes, then allow them to cool for a while, then they will form large amounts of resistant starch, a fiber-like substance that has been shown to have all sorts of health benefits… including weight loss "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

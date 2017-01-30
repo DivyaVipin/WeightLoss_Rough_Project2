@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/backgnd"
+    android:orientation="vertical">
+    <TextView
+        android:text="Calorie Tracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/calorieheading"
+        android:textSize="25dp"
+        android:textColor="@color/colorBlack"/>
+    <android.support.design.widget.FloatingActionButton
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:id="@+id/addDetails"
+    android:layout_gravity="bottom|end"
+
+    android:src="@drawable/add"
+    />
+
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewCalorie"
+        android:layout_marginTop="40dp"
+        ></ListView>
+
+
+</android.support.design.widget.CoordinatorLayout>

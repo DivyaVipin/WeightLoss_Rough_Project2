@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:textSize="20dp"
+            android:text="Chia Seeds"
+            android:textColor="@color/colorBlack"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chia"
+            android:scaleType="center"
+            android:id="@+id/chiaseeds"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="--> Chia seeds are among the most nutritious foods on the planet."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+
+            android:text="-->They do contain 12 grams of carbohydrate per ounce, which is pretty high, but 11 of those grams are fiber"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->This makes chia seeds a low-carb friendly food, and one of the best sources of fiber in the world "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->Because of all the fiber, chia seeds can absorb up to 11-12 times their weight in water, turning gel-like and expanding in your stomach  "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->Although some studies have shown that chia seeds can help reduce appetite, they have not found a statistically significant effect on weight loss ."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="-->However, given their nutrient composition, it makes sense that chia seeds could be a useful part of a weight loss diet "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/daythree"
+        android:id="@+id/imgThirdDay"
+        />
+    <TextView
+        android:textColor="@color/colorBlack"
+android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Sample Diet Chart\n--------------------\n
+--> Breakfast at 8.30 am: 1 apple or 1 bowl of watermelon and 2 glasses of water.\n
+--> Brunch at 10.30 am: 1 cup of diced pineapples, 1 apple and 2 glasses of water.\n
+--> Lunch at 1 noon: 1 bowl of mixed cabbage, onions, cucumber, broccoli,
+   carrots with 2 glasses of water.\n
+--> Afternoon Snack at 4.00 pm: 1/2 grapefruit and a glass of water.\n
+--> Evening Snack at 6.30 pm: 1 guava or 1 pear.\n
+-->Dinner at 8.00 pm: 1 bowl of boiled broccoli, 1/2 cup boiled beet and 2 glasses of water.\n
+"/>
+</LinearLayout>

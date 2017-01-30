@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd">
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dayfour"
+        android:id="@+id/imgFourthDay"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="3dp"
+        android:text=" .
+Sample Diet Chart:\n---------------------------\n
+    --> Breakfast: 2 bananas and a glass of milk.\n
+    --> Brunch: Banana shake prepared  with 1
+        glass of milk and 1 banana.\n
+    -->Lunch: 1 bowl of vegetable soup with beans,
+       broccoli,  carrots, cabbage and onions.\n
+    --> Afternoon Snack: Banana shake prepared with
+       a glass of milk and 1 banana.\n
+    -->Dinner: 1 glass of milk and 2 bananas.
+"/>
+</LinearLayout>
